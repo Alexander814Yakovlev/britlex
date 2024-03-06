@@ -121,7 +121,7 @@
     }
 
     .speaking .card__text {
-        margin-top: -10px;
+        margin-top: -8px;
         margin-bottom: 33px;
     }
 
@@ -129,6 +129,7 @@
         width: 196px;
         height: 57px;
         padding: 4px 10px 0 0;
+        margin-top: -8px;
     }
 
     /* Writing */
@@ -272,6 +273,7 @@
         width: 205px;
         height: 45px;
     }
+
     .price {
         font-size: 24px;
     }
@@ -296,6 +298,7 @@
         padding-left: 2px;
         width: 300px;
     }
+
     .pricing__card:nth-child(1)>.pricing__card_price {
         margin-top: 30px;
     }
@@ -329,6 +332,7 @@
         margin-top: -12px;
         padding-left: 54px;
     }
+
     .pricing__card:nth-child(3)>.pricing__card_image>img {
         width: 242px;
         height: 242px;
@@ -337,9 +341,11 @@
     .pricing__card:nth-child(3)>.pricing__card_header {
         margin: -2px 0 0 71px;
     }
+
     .pricing__card:nth-child(3)>.pricing__card_text {
         margin: 2px 0 0 71px;
     }
+
     .pricing__card:nth-child(3)>.pricing__card_price {
         margin: 33px 0 0 76px;
     }
@@ -356,6 +362,7 @@
         width: 312px;
         height: 281px;
     }
+
     .contacts__header {
         padding: 1px 0 0 14px;
     }
@@ -369,6 +376,7 @@
     .contacts__form {
         padding-bottom: 37px;
     }
+
     .form__email {
         height: 60px;
         width: 323px;
@@ -402,5 +410,487 @@
     .footer__policy {
         font-size: 16px;
         padding-top: 14px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .container {
+        max-width: 90%;
+    }
+
+    .section-header {
+        font-size: 30px;
+    }
+
+    .card-header {
+        font-size: 20px;
+    }
+
+    /* Navigation */
+
+    .nav__inner {
+        padding-top: 37px;
+    }
+
+    .nav__menu {
+        display: none;
+    }
+
+    .nav__burger {
+        display: block;
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+    }
+
+    .line__burger {
+        position: relative;
+        width: 100%;
+        height: 3px;
+        background-color: #39515e;
+        margin-top: 50%;
+    }
+
+    .line__burger::before {
+        content: '';
+        position: absolute;
+        top: -7px;
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: #39515e;
+    }
+
+    .line__burger::after {
+        content: '';
+        position: absolute;
+        top: 7px;
+        display: block;
+        width: 70%;
+        height: 3px;
+        background-color: #39515e;
+    }
+
+    /* Header */
+
+    .header__flex {
+        padding-top: 44px;
+    }
+
+    .header__info {
+        margin-right: 12px;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 45px;
+        letter-spacing: -0.5px;
+    }
+
+    .lightbulb {
+        width: 52%;
+        margin-right: 9px;
+        padding-top: 66px;
+        padding-right: 37px;
+    }
+
+    .header__text {
+        font-size: 16px;
+        margin-top: 22px;
+        margin-left: 0;
+    }
+
+    .header__button {
+        font-size: 18px;
+        width: 236px;
+        height: 65px;
+    }
+
+    .header__image>img {
+        width: 352px;
+        height: 352px;
+        margin: -14px -12px 0 0;
+    }
+
+    /* Skills */
+
+    .skills__header {
+        margin-top: -6px;
+    }
+
+    .skills__grid {
+        margin-top: 35px;
+        gap: 10px;
+        grid-template-rows: 441px 210px;
+    }
+
+
+    /* GRID CARDS START */
+    /* Speaking */
+
+    .speaking {
+        padding-top: 31px;
+    }
+
+
+    .speaking>.skills__card_image {
+        padding-left: 2px;
+    }
+
+    .speaking>.skills__card_image>img {
+        width: 214px;
+    }
+
+    .speaking>.skills__card_info {
+        margin-top: -4px;
+        padding-left: 16px;
+    }
+
+    .speaking .card__text {
+        margin-top: -15px;
+        margin-right: -20px;
+        margin-bottom: 36px;
+        letter-spacing: -0.46px;
+        line-height: 20px;
+    }
+
+    .speaking button {
+        width: 178px;
+        height: 50px;
+        margin-top: -14px;
+        font-size: 16px;
+        padding: 4px 0 0 3px;
+    }
+
+
+    /* Writing */
+    .writing>.skills__card_image>img {
+        width: 200px;
+        margin-left: -6px;
+        margin-top: 13px;
+    }
+
+    .writing>.skills__card_info {
+        padding-left: 6px;
+        margin-top: -40px;
+    }
+
+    .writing .card__text {
+        font-size: 13px;
+        margin: -18px -10px 20px 4px;
+    }
+
+    .writing button {
+        width: 178px;
+        height: 50px;
+        font-size: 16px;
+        padding: 5px 0 0 0;
+        letter-spacing: -0.1px;
+    }
+
+
+    /* Reading */
+    .reading>.skills__card_image>img {
+        width: 216px;
+        padding-top: 15px;
+    }
+
+    .reading>.skills__card_info {
+        margin-top: 0px;
+        padding-left: 23px;
+    }
+
+    .reading .card__text {
+        margin-top: -17px;
+        letter-spacing: -0.6px;
+        line-height: 20px;
+    }
+
+    .reading button {
+        width: 178px;
+        height: 50px;
+        font-size: 16px;
+        padding: 0;
+        letter-spacing: 0;
+    }
+
+    /* Listening */
+
+    .listening>.skills__card_image {
+        margin-top: 42px;
+        margin-right: 9px;
+    }
+
+    .listening>.skills__card_image>img {
+        width: 202px;
+    }
+
+    .listening>.skills__card_info {
+        padding-left: 13px;
+        margin-right: -15px;
+    }
+
+    .listening .card-header {
+        margin-top: -7px;
+        margin-left: -2px;
+    }
+
+    .listening .card__text {
+        font-size: 13px;
+        margin-top: -17px;
+        margin-left: 0px;
+    }
+
+    .listening button {
+        width: 178px;
+        height: 50px;
+        font-size: 16px;
+        margin-top: -2px;
+        margin-left: -1px;
+        padding-right: 2px;
+        padding-top: 2px;
+        letter-spacing: 0px;
+    }
+
+    /* GRID CARDS END */
+
+    /* About Us */
+
+    .about__flex {
+        margin-top: 23px;
+    }
+
+    .about__info_text {
+        font-size: 14px;
+        margin-top: 109px;
+        width: 97%;
+    }
+
+    .about__info_stats {
+        width: 113%;
+        margin-top: -30px;
+    }
+
+    .stats__item:nth-child(1)>.num {
+        margin-left: 7px;
+    }
+
+    .num {
+        font-size: 22px;
+    }
+
+    .stats__item>p {
+        font-size: 13px;
+        margin-top: -10px;
+    }
+
+    .stats__item:nth-child(2)>p {
+        margin-top: -11px;
+        margin-left: -3px;
+    }
+
+
+    .stats__item:nth-child(3)>.num {
+        padding-left: 4px;
+    }
+
+
+    .stats__item:nth-child(3)>p {
+        margin-top: -13px;
+        margin-right: 5px;
+    }
+
+    .about__image {
+        margin-right: -4px;
+        padding-top: 65px;
+        padding-right: 0;
+    }
+
+    .about__image>img {
+        width: 295px;
+        height: 295px;
+    }
+
+    /* Pricing */
+
+    .pricing__header {
+        margin-top: 84px;
+    }
+
+    .pricing__card_header {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .pricing__flex {
+        margin-top: 31px;
+    }
+
+    .pricing__card {
+        max-width: 205px;
+    }
+
+    .pricing__card_text {
+        font-size: 14px;
+    }
+
+    .pricing__card_price {
+        font-size: 16px;
+    }
+
+    .price {
+        font-size: 22px;
+    }
+
+
+
+    /* PRICING CARDS */
+
+    /* CARD 1 */
+
+    .pricing__card:nth-child(1)>.pricing__card_image>img {
+        width: 197px;
+        height: 197px;
+    }
+
+    .pricing__card:nth-child(1)>.pricing__card_image {
+        padding-left: 0px;
+        margin-left: -13px;
+    }
+
+    .pricing__card:nth-child(1)>.pricing__card_header {
+        margin-top: 16px;
+    }
+
+    .pricing__card:nth-child(1)>.pricing__card_text {
+        margin-top: 15px;
+        padding-left: 0px;
+        padding-right: 100px;
+    }
+
+    .pricing__card:nth-child(1)>.pricing__card_price {
+        margin-top: 26px;
+    }
+
+    /* CARD 2 */
+
+    .pricing__card:nth-child(2)>.pricing__card_image>img {
+        width: 226px;
+        height: 171px;
+    }
+
+    .pricing__card:nth-child(2)>.pricing__card_image {
+        padding-left: 0px;
+        padding-top: 28px;
+        margin-left: -10px;
+    }
+
+    .pricing__card:nth-child(2)>.pricing__card_header {
+        margin-left: 36px;
+        margin-top: 14px;
+    }
+
+    .pricing__card:nth-child(2)>.pricing__card_text {
+        margin-left: 0;
+        margin-top: 16px;
+    }
+
+    .pricing__card:nth-child(2)>.pricing__card_price {
+        margin-top: 45px;
+        margin-left: -3px;
+    }
+
+    /* CARD 3 */
+
+    .pricing__card:nth-child(3)>.pricing__card_image>img {
+        width: 210px;
+        height: 210px;
+    }
+
+    .pricing__card:nth-child(3)>.pricing__card_image {
+        padding-left: 0px;
+        margin-top: -5px;
+        margin-left: -4px;
+    }
+
+    .pricing__card:nth-child(3)>.pricing__card_header {
+        margin-left: -4px;
+        margin-top: 9px;
+        padding-right: 60px;
+    }
+
+    .pricing__card:nth-child(3)>.pricing__card_text {
+        margin-left: -5px;
+        margin-top: 9px;
+        margin-right: -15px;
+    }
+
+    .pricing__card:nth-child(3)>.pricing__card_price {
+        margin-left: -3px;
+        margin-top: 51px;
+    }
+
+    /* Contact Us */
+
+    .contacts {
+        padding-top: 86px;
+    }
+
+    .contacts__grid {
+        column-gap: 37px;
+    }
+
+    .contacts__image {
+        margin-left: 5px;
+    }
+
+    .contacts__image>img {
+        width: 233px;
+        height: 210px;
+    }
+
+    .contacts__title {
+        margin-top: -23px;
+        margin-left: -13px;
+    }
+
+    .contacts__text {
+        font-size: 14px;
+        padding-right: 47px;
+        margin-top: -30px;
+        margin-left: 1px;
+    }
+
+    .form__email {
+        width: 283px;
+        height: 50px;
+        font-size: 12px;
+        padding-left: 22px;
+        padding-top: 0px;
+        letter-spacing: 0.1px;
+        border-radius: 5px;
+    }
+
+    .form__button {
+        width: 145px;
+        height: 50px;
+        font-size: 13px;
+        padding-left: 0px;
+        padding-top: 3px;
+        padding-right: 0px;
+        margin-left: -4px;
+        border-radius: 5px;
+    }
+
+    .footer {
+        padding-top: 105px;
+    }
+
+    .footer__inner {
+        margin-top: 10px;
+    }
+    .footer__policy {
+        font-size: 13px;
     }
 }

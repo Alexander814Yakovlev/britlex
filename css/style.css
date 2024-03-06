@@ -141,6 +141,10 @@ p {
     border-radius: 5px;
 }
 
+.nav__burger {
+    display: none;
+}
+
 /* Header */
 
 .header {}
@@ -282,6 +286,7 @@ h1 {
 .listening {
     grid-area: listening;
     flex-direction: row-reverse;
+    justify-content: space-around;
 }
 
 .listening>.skills__card_image {
