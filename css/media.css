@@ -1,8 +1,406 @@
 @media screen and (max-width: 1599px) {
     .container {
-        max-width: 93%;
+        max-width: 94%;
     }
+
+    .section-header {
+        font-size: 36px;
+    }
+
+    /* Navbar */
+    .nav__inner {
+        padding-top: 28px;
+    }
+
+    .main-logo {
+        font-size: 30px;
+    }
+
+    .nav__menu_links {
+        min-width: 65.7%;
+    }
+
+    .nav__menu_links>li:nth-child(3) {
+        margin-right: 15px;
+    }
+
+    .nav__menu_links>li>a {
+        font-size: 16px;
+    }
+
+    .nav__menu_button {
+        width: 160px;
+        height: 50px;
+        font-size: 18px;
+        margin: -2px 1px 0 0;
+    }
+
+    /* Header */
+
+    .header__flex {
+        height: 460px;
+    }
+
+    .header__title {
+        margin-top: 24px;
+    }
+
+    h1 {
+        font-size: 48px;
+        line-height: 64px;
+    }
+
+    .lightbulb {
+        width: 39%;
+        padding-right: 35px;
+        margin-right: 52px;
+        padding-top: 67px;
+    }
+
+    .header__text {
+        font-size: 20px;
+        margin-top: 26px;
+        margin-left: 3px;
+        max-width: 420px;
+    }
+
+    .header__button {
+        height: 80px;
+        width: 292px;
+        font-size: 24px;
+        margin-top: 31px;
+    }
+
+    .header__image {
+        padding: 10px 0 0 12px;
+        margin-right: 0;
+        margin-right: -10px;
+    }
+
     .header__image>img {
-        max-width: 112%;
+        max-width: 460px;
+    }
+
+    /* Skills */
+
+    .skills__header {
+        margin-top: 109px;
+    }
+
+    .skills__grid {
+        margin-top: 50px;
+    }
+
+    .skills__card_info {
+        padding-left: 30px;
+        margin-top: -6px;
+    }
+
+    .card-header {
+        font-size: 22px;
+    }
+
+    .card__text {
+        font-size: 14px;
+    }
+
+    .card__button {
+        width: 196px;
+        height: 57px;
+    }
+
+    /* GRID CARDS START */
+    /* Speaking */
+
+    .speaking>.skills__card_image {
+        padding: 0 0 0 23px;
+    }
+
+    .speaking>.skills__card_image>img {
+        width: 260px;
+    }
+
+    .speaking .card__text {
+        margin-top: -10px;
+        margin-bottom: 33px;
+    }
+
+    .speaking button {
+        width: 196px;
+        height: 57px;
+        padding: 4px 10px 0 0;
+    }
+
+    /* Writing */
+    .writing>.skills__card_image>img {
+        width: 205px;
+        height: 205px;
+        margin: 7px 0 0 88px;
+    }
+
+    .writing>.skills__card_info {
+        padding: 0 27px 0 31px;
+        margin-top: -37px;
+    }
+
+    .writing .card__text {
+        margin: -11px 0 25px;
+    }
+
+    .writing button {
+        margin-top: -2px;
+        letter-spacing: -1px;
+        padding-right: 13px;
+    }
+
+    /* Reading */
+    .reading>.skills__card_image {
+        margin: 17px 0 0 4px;
+
+    }
+
+    .reading>.skills__card_image>img {
+        width: 243px;
+        height: 162px;
+    }
+
+    .reading>.skills__card_info {
+        padding-left: 26px;
+        margin-top: 4px;
+    }
+
+    .reading .card__text {
+        margin: -15px 0 25px 1px;
+    }
+
+    .reading button {
+        letter-spacing: -1px;
+        padding-right: 13px;
+    }
+
+    /* Listening */
+    .listening>.skills__card_image {
+        margin: 35px 16px 0 0;
+    }
+
+    .listening>.skills__card_image>img {
+        width: 254px;
+        height: 169px;
+    }
+
+    .listening>.skills__card_info {
+        margin: 5px 20px 0 0;
+    }
+
+    .listening .card__text {
+        margin: -13px 0 16px 3px;
+    }
+
+    .listening button {
+        margin-left: 0;
+        letter-spacing: -1px;
+        padding-right: 10px;
+    }
+
+    /* GRID CARDS END */
+    .skills__grid {
+        gap: 13px;
+        grid-template-rows: 441px 241px;
+    }
+
+    /* About Us */
+
+    .about__flex {
+        margin-top: 79px;
+    }
+
+    .about__image {
+        padding: 44px 32px 0 0;
+    }
+
+    .about__image>img {
+        width: 336px;
+        height: 336px;
+    }
+
+    .about__info_text {
+        font-size: 16px;
+        margin-top: 105px;
+        width: 121%;
+    }
+
+    .about__info_stats {
+        width: 81%;
+        margin-top: -27px;
+    }
+
+    .num {
+        font-size: 30px;
+    }
+
+    .stats__item>p {
+        margin-top: -9px;
+    }
+
+    .stats__item:nth-child(1) {
+        padding-right: 10px;
+    }
+
+    /* Pricing */
+
+    .pricing__header {
+        margin-top: 108px;
+    }
+
+    .pricing__flex {
+        margin-top: 23px;
+    }
+
+    .pricing__card {
+        max-width: 330px;
+    }
+
+    .pricing__card_header {
+        font-size: 22px;
+    }
+
+    .pricing__card_text {
+        font-size: 16px;
+    }
+
+    .pricing__card_price {
+        width: 205px;
+        height: 45px;
+    }
+    .price {
+        font-size: 24px;
+    }
+
+    /* PRICING CARDS START*/
+    /* Card 1 */
+    .pricing__card:nth-child(1)>.pricing__card_image {
+        padding-left: 15px;
+    }
+
+    .pricing__card:nth-child(1)>.pricing__card_image>img {
+        width: 222px;
+        height: 222px;
+    }
+
+    .pricing__card:nth-child(1)>.pricing__card_header {
+        margin-top: 6px;
+    }
+
+    .pricing__card:nth-child(1)>.pricing__card_text {
+        margin-top: 7px;
+        padding-left: 2px;
+        width: 300px;
+    }
+    .pricing__card:nth-child(1)>.pricing__card_price {
+        margin-top: 30px;
+    }
+
+    /* Card 2 */
+
+    .pricing__card:nth-child(2)>.pricing__card_image {
+        padding-left: 18px;
+    }
+
+    .pricing__card:nth-child(2)>.pricing__card_image>img {
+        width: 267px;
+        height: 195px;
+    }
+
+    .pricing__card:nth-child(2)>.pricing__card_header {
+        margin: 8px 0 0 38px;
+    }
+
+    .pricing__card:nth-child(2)>.pricing__card_text {
+        margin: 10px 0 0 38px;
+    }
+
+    .pricing__card:nth-child(2)>.pricing__card_price {
+        margin: 51px 0 0 40px;
+    }
+
+    /* Card 3 */
+
+    .pricing__card:nth-child(3)>.pricing__card_image {
+        margin-top: -12px;
+        padding-left: 54px;
+    }
+    .pricing__card:nth-child(3)>.pricing__card_image>img {
+        width: 242px;
+        height: 242px;
+    }
+
+    .pricing__card:nth-child(3)>.pricing__card_header {
+        margin: -2px 0 0 71px;
+    }
+    .pricing__card:nth-child(3)>.pricing__card_text {
+        margin: 2px 0 0 71px;
+    }
+    .pricing__card:nth-child(3)>.pricing__card_price {
+        margin: 33px 0 0 76px;
+    }
+
+    /* PRICING CARDS END */
+
+    /* Contact Us */
+
+    .contacts {
+        padding-top: 134px;
+    }
+
+    .contacts__image>img {
+        width: 312px;
+        height: 281px;
+    }
+    .contacts__header {
+        padding: 1px 0 0 14px;
+    }
+
+    .contacts__text {
+        font-size: 16px;
+        padding-right: 80px;
+        margin: -22px 0 6px 0;
+    }
+
+    .contacts__form {
+        padding-bottom: 37px;
+    }
+    .form__email {
+        height: 60px;
+        width: 323px;
+        font-size: 16px;
+        padding-top: 9px;
+        padding-left: 35px;
+        letter-spacing: -1px;
+    }
+
+    .form__button {
+        height: 60px;
+        width: 193px;
+        font-size: 16px;
+        padding-top: 8px;
+    }
+
+    /* Footer */
+
+    .footer {
+        padding: 151px 0 30px 0;
+    }
+
+    .footer__inner {
+        margin-top: 16px;
+    }
+
+    .footer__logo {
+        padding-top: 7px;
+    }
+
+    .footer__policy {
+        font-size: 16px;
+        padding-top: 14px;
     }
 }

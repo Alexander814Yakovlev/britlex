@@ -169,7 +169,7 @@ h1 {
     letter-spacing: -1px;
 }
 
-.ligtbulb {
+.lightbulb {
     padding-top: 65px;
 }
 
@@ -178,7 +178,6 @@ h1 {
     max-width: 680px;
     margin-left: -3px;
     margin-top: 40px;
-    /* max-width: 530px; */
 }
 
 .header__button {
@@ -213,7 +212,7 @@ h1 {
     flex-direction: column;
 
 }
-
+/* GRID CARDS START */
 /* Speaking */
 .speaking {
     grid-area: speaking;
@@ -252,7 +251,6 @@ h1 {
     margin-top: 8px;
 }
 
-/* GRID CARDS START */
 /* Reading */
 .reading {
     grid-area: reading;
