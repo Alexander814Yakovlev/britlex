@@ -890,7 +890,348 @@
     .footer__inner {
         margin-top: 10px;
     }
+
     .footer__policy {
         font-size: 13px;
     }
+}
+
+@media screen and (max-width:766px) {
+    .container {
+        max-width: 89%;
+    }
+
+
+    /* Navigation */
+
+    .nav__burger {
+        width: 43px;
+        height: 46px;
+        margin-right: 18px;
+    }
+
+    .line__burger {
+        height: 4px;
+        margin-top: 53%;
+    }
+
+    .line__burger::before {
+        height: 4px;
+        top: -10px;
+    }
+
+    .line__burger::after {
+        height: 4px;
+        top: 10px;
+    }
+
+    /* Header */
+
+    .lightbulb {
+        display: none;
+    }
+
+    #header-brake {
+        display: none;
+    }
+
+    .header__flex {
+        flex-direction: column-reverse;
+        max-width: 100%;
+        justify-content: flex-end;
+        padding: 0;
+    }
+
+    .header__info {
+        margin: 0;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .header__title {
+        margin: -20px 0 29px 0;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 34px;
+        line-height: 45px;
+    }
+
+    .header__text {
+        margin: 0;
+        max-width: 100%;
+        font-size: 16px;
+    }
+
+    .header__button {
+        margin: 35px 0 0 0;
+        width: 305px;
+        height: 75px;
+        font-size: 18px;
+    }
+
+
+    .header__image {
+        padding: 10px 0 0 0;
+        margin: 0;
+    }
+
+    .header__image>img {
+        max-width: 100%;
+        width: 90%;
+        height: 92%;
+        margin: 0 auto;
+        display: block;
+    }
+
+
+    /* Skills */
+    .skills {
+        margin-top: 56%;
+    }
+
+    .skills__header {
+        margin: 0;
+        padding-left: 10px;
+    }
+
+    .skills__card {
+        padding: 15px 25px 36px 15px !important;
+        width: 42vw !important;
+    }
+
+    .skills__card_image {
+        margin: 0 !important;
+        padding: 0 !important;
+        height: 26vw !important;
+    }
+
+    .skills__card_image>img {
+        margin: 0 !important;
+        padding: 0 !important;
+        max-height: 100% !important;
+        min-width: 100% !important;
+    }
+
+    .skills__card_info {
+        padding: 0 !important;
+        margin: 0 !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 50vh;
+    }
+
+    .card-header {
+        margin: 0 !important;
+        padding: 0 !important;
+        font-size: 18px;
+    }
+
+    .card__text {
+        margin: 0 0 20px 0 !important;
+        padding: 0 !important;
+        font-size: 13px;
+        line-height: 18px !important;
+    }
+
+    .card__button {
+        width: 35vw !important;
+        height: 50px !important;
+        font-size: 14px !important;
+    }
+
+    .skills__grid {
+        margin: 32px 0 0 0;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 534px 534px;
+        grid-template-areas: none;
+        gap: 34px 30px;
+    }
+
+
+    /* Speaking */
+    .speaking_large {
+        display: none;
+    }
+
+    .speaking {
+        grid-area: auto;
+        padding: 0;
+    }
+
+    /* Writing */
+    .writing {
+        grid-area: auto;
+    }
+
+    /* Reading */
+
+    .reading {
+        grid-area: auto;
+    }
+
+    /* Listening */
+
+    .listening {
+        grid-area: auto;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    /* About Us */
+    .about {
+        position: static;
+    }
+
+    .about__header {
+        position: static;
+    }
+
+    .section-header {
+        text-align: center;
+        margin-top: 17%;
+    }
+
+    .about__flex {
+        margin-top: 21px;
+        flex-direction: column-reverse;
+    }
+
+    .about__info {
+        width: auto;
+        margin-top: 4%;
+    }
+
+    .about__info_text {
+        margin: 0;
+        width: auto;
+        text-align: center;
+    }
+
+    .about__info_stats {
+        margin: -20px auto 0;
+        width: auto;
+        justify-content: space-around;
+    }
+
+    .stats__item:nth-child(1) {
+        padding: 0 0 0 9px;
+    }
+
+    .stats__item:nth-child(2) {
+        padding-left: 35px;
+    }
+
+    .stats__item:nth-child(3) {
+        margin-right: 0;
+    }
+
+    .stats__item>p {
+        font-size: 14px;
+    }
+
+    .about__image {
+        padding: 0;
+    }
+
+    .about__image>img {
+        width: 87vw;
+        height: 61vw;
+    }
+
+
+    /* Pricing */
+
+    .pricing__header {
+        margin-top: 25%;
+    }
+
+    .pricing__flex {
+        flex-direction: column;
+    }
+
+    .pricing__card {
+        max-width: 95vw;
+        margin-top: 25px;
+    }
+
+    .pricing__card_image>img {
+        width: 55vw !important;
+        height: auto !important;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .pricing__card_header {
+        font-size: 24px;
+        text-align: center;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .pricing__card_text {
+        width: 68vw !important;
+        padding: 0 !important;
+        text-align: center;
+        margin: 20px auto !important;
+    }
+
+    .pricing__card_price {
+        margin: 35px auto 23px !important;
+    }
+
+    /* Contacts */
+
+    .contacts__grid {
+        grid-template-areas: 'title'
+            'image'
+            'text'
+            'form';
+    }
+
+    .contacts__header {
+        margin-top: 15%;
+    }
+
+    .contacts__image>img {
+        width: 61vw;
+        height: 56vw;
+        display: block;
+        margin: 62px auto;
+    }
+
+    .contacts__text {
+        font-size: 16px;
+        text-align: center;
+        margin: -50px 0 39px;
+        padding: 0;
+    }
+
+    .form__email {
+        width: 58vw;
+        height: 10vw;
+    }
+
+    .form__button {
+        width: 32vw;
+        height: 10vw;
+        font-size: 1.1em;
+    }
+
+
+    /* Footer */
+    .footer {
+        padding-top: 111px;
+    }
+
+    .footer__inner {
+        margin-top: 16px;
+    }
+
+    .footer__policy {
+        font-size: 12px;
+    }
+
 }
