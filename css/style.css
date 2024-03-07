@@ -11,6 +11,7 @@
 html {
     box-sizing: border-box;
     font-family: 'Poppins Regular';
+    scroll-behavior: smooth;
 }
 
 *,
@@ -56,6 +57,7 @@ p {
 
 .main-logo {
     font-size: 36px;
+    cursor: default;
 }
 
 .logo-right {
@@ -65,6 +67,11 @@ p {
 .btn {
     background-color: transparent;
     cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: 2px 2px 13px 3px rgba(173,168,173,0.65);
+    opacity: 0.8;
 }
 
 .section-header {
@@ -79,8 +86,6 @@ p {
 }
 
 /* Navbar */
-
-.nav {}
 
 .nav__inner {
     padding-top: 55px;
@@ -147,8 +152,6 @@ p {
 
 /* Header */
 
-.header {}
-
 .header__flex {
     display: flex;
     flex-direction: row;
@@ -201,8 +204,6 @@ h1 {
 
 /* Skills */
 
-.skills {}
-
 .skills__header {
     margin-top: 95px;
     text-align: center;
@@ -216,6 +217,7 @@ h1 {
     flex-direction: column;
 
 }
+
 /* GRID CARDS START */
 /* Speaking */
 .speaking {
@@ -319,8 +321,6 @@ h1 {
         'speaking listening listening';
 }
 
-.skills__card_image {}
-
 .skills__card_info {
     padding-left: 40px;
     padding-right: 40px;
@@ -385,8 +385,6 @@ h1 {
     text-align: center;
 }
 
-.stats__item {}
-
 .stats__item:nth-child(1) {
     padding-right: 42px;
 }
@@ -415,8 +413,6 @@ h1 {
 }
 
 /* Pricing */
-
-.pricing {}
 
 .pricing__header {
     text-align: center;
@@ -487,8 +483,6 @@ h1 {
 }
 
 /* PRICING CARDS END */
-
-.pricing__card_image {}
 
 .pricing__card_header {
     font-family: 'Poppins Medium';
@@ -580,7 +574,7 @@ h1 {
     border-radius: 10px;
     margin-right: 10px;
     padding-left: 33px;
-    outline: #8F95A5;
+    outline: var(--button) solid 2px;
     font-size: 16px;
     font-family: 'Poppins Regular';
 }
@@ -618,9 +612,6 @@ h1 {
     align-items: center;
     justify-content: space-between;
 }
-
-.footer__logo {}
-
 
 .footer__policy {
     font-size: 24px;

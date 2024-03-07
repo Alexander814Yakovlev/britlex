@@ -1235,3 +1235,207 @@
     }
 
 }
+
+@media screen and (max-width: 574px) {
+    .container {
+        max-width: 92vw;
+    }
+
+    /* Navbar */
+    .nav__inner {
+        padding-top: 33px;
+    }
+
+    .nav__logo {
+        font-size: 24px;
+    }
+
+    .nav__burger {
+        margin: 0;
+        width: 35px;
+    }
+
+    .line__burger {
+        margin-top: 57%;
+    }
+
+    .line__burger::before {
+        top: -7px;
+    }
+
+    .line__burger::after {
+        top: 8px;
+    }
+
+    /* Header */
+
+    .header__title {
+        margin: 20px auto 18px;
+    }
+
+    h1 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .header__text {
+        font-size: 14px;
+    }
+
+    .header__button {
+        width: 90vw;
+        height: 8vh;
+    }
+
+    .header__image {
+        padding-top: 0;
+        margin-top: 22px;
+    }
+
+    .header__image>img {
+        width: auto;
+        height: 102%;
+        max-width: 100%;
+    }
+
+    /* Skills */
+
+    .section-header {
+        font-size: 24px;
+    }
+
+    .skills__grid {
+        grid-template-columns: repeat(1, 2fr);
+        grid-template-rows: 600px 473px 473px 473px;
+        row-gap: 21px;
+    }
+
+    .skills__card {
+        width: auto !important;
+        max-width: 92vw;
+    }
+
+    .skills__card_image {
+        height: 50vw !important;
+    }
+
+    .card__button {
+        width: 57vw !important;
+    }
+
+    /* About Us */
+    .about__image>img {
+        height: 90vw;
+    }
+
+    .about__info_text {
+        font-size: 13px;
+    }
+
+    .about__info_stats {
+        flex-direction: column;
+        margin: -27px auto 0;
+    }
+
+    .stats__item {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .num {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .stats__item>p {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    /* Pricing */
+    .pricing__header {
+        margin-top: 27%;
+        margin-bottom: 20px;
+    }
+
+    .pricing__card {
+        margin-bottom: 35px;
+    }
+
+    .pricing__card_image>img {
+        width: 65vw !important;
+        height: 65vw !important;
+    }
+
+    .pricing__card_header {
+        font-size: 18px;
+    }
+
+    .pricing__card_text {
+        font-size: 13px;
+    }
+
+    .pricing__card_price {
+        width: 52vw;
+        height: 4vh;
+        font-size: 14px;
+        min-width: 150px;
+    }
+
+    .price {
+        font-size: 18px;
+    }
+
+    /* Contacts */
+    .contacts {
+        padding-top: 14px;
+    }
+
+    .contacts__image>img {
+        width: 78vw;
+        height: 71vw;
+        margin-top: 18px;
+    }
+
+    .contacts__text {
+        font-size: 14px;
+        margin-top: -41px;
+        margin-bottom: 10px;
+    }
+
+    .form__flex {
+        flex-direction: column;
+    }
+
+    .form__email {
+        width: 92vw;
+        height: 6vh;
+        margin: 0 0 15px 0;
+    }
+
+    .form__button {
+        width: 92vw;
+        height: 7vh;
+        font-size: 1.1em;
+        margin: 0;
+        font-size: 0.9em;
+    }
+
+    /* Footer */
+    .footer {
+        padding-top: 21px;
+    }
+
+    .footer__inner {
+        flex-direction: column;
+        margin-top: 19px;
+    }
+
+    .footer__logo {
+        font-size: 24px;
+    }
+
+    .footer__policy {
+        font-size: 11px;
+    }
+}
