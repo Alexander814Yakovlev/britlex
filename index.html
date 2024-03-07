@@ -29,9 +29,11 @@
                     </ul>
                     <button class="nav__menu_button btn">Let’s Talk</button>
                 </div>
-                <div class="nav__burger">
-                    <div class="line__burger"></div>
-                </div>
+                <a href="#" data-target="slide-out" class="sidenav-trigger">
+                    <div class="nav__burger">
+                        <div class="line__burger"></div>
+                    </div>
+                </a>
             </div>
         </div>
     </nav>
@@ -200,7 +202,8 @@
                     <img src="img/Contact_1.png" alt="Contacts">
                 </div>
                 <div class="contacts__text">
-                    <p>Discover your current English level by taking our free online English test.Sign up to our newsletter for learning tips and free resources</p>
+                    <p>Discover your current English level by taking our free online English test.Sign up to our
+                        newsletter for learning tips and free resources</p>
                 </div>
                 <div class="contacts__form">
                     <form class="form__flex" action="">
@@ -227,7 +230,36 @@
             </div>
         </div>
     </footer>
+    <!-- Mobile Sidenav -->
+    <div class="mobile__menu">
+        <ul id="slide-out" class="sidenav">
+            <li>
+                <a href="#!">
+                    <div class="mobile__menu_head">
+                        <div class="mobile__menu__logo main-logo">
+                            <span class="logo-left">Brit</span><span class="logo-right">lex</span>
+                        </div>
+                        <div class="close__button">
+                            <a class="sidenav-close cross" href="#!">
+                                <img src="img/close-icon.svg" alt="✖">
+                            </a>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <div class="divider"></div>
+            </li>
+            <li><a class="sidenav-close" href="/">Home</a></li>
+            <li><a class="sidenav-close" href="#skills">Skills</a></li>
+            <li><a class="sidenav-close" href="#about">About Us</a></li>
+            <li><a class="sidenav-close" href="#pricing">Pricing</a></li>
+            <li><a class="sidenav-close" href="#contacts">Contacts</a></li>
+            <li><button class="sidenav__menu_button btn">Let’s Talk</button></li>
+        </ul>
+    </div>
     <!-- Scripts -->
+    <script src="js/materialize.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 
